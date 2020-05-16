@@ -1,0 +1,66 @@
+Blacklist:
+411111f0 400000f0 CD at Int ATAPI
+Removed Nodes: 0x13 0x17 0x18 0x19 0x1a 0x1b 
+Checking 71c Associations
+
+Current Associations
+ 01271c30 = 3 
+ 01471c10 = 1 
+ 01671c00 = 1  note: Changed 0 to 1
+ 01d71c01 = 1  note: Changed 0 to 1
+ 01e71cf2 = f 
+ 02171c20 = 2 
+
+  Used associations = 3 1 1 1 f 2
+Unused associations = 4 5 6 7 8 9 a b c d e
+
+Correcting duplicate associations
+
+Checking if 3 already exists in: 1 1 1 f 2 
+   no duplicate found
+Checking if 1 already exists in: 3 1 1 f 2 
+   duplicate found - Is this the first time we've seen this association?
+   yes - ignoring
+Checking if 1 already exists in: 3 1 1 f 2 
+   duplicate found - Is this the first time we've seen this association?
+   no - replacing association with: 4
+Checking if 1 already exists in: 3 1 4 f 2 
+   duplicate found - Is this the first time we've seen this association?
+   no - replacing association with: 5
+Checking if f already exists in: 3 1 4 5 2 
+   no duplicate found
+Checking if 2 already exists in: 3 1 4 5 f 
+   no duplicate found
+
+New 71c Associations
+ Before      After
+--------------------------------------------------
+01271c30   01271c30  01271d01  01271ea6  01271fb7
+01471c10   01471c10  01471d01  01471e17  01471f90
+01671c00   01671c40  01671d00  01671e00  01671f40
+01d71c01   01d71c50  01d71d00  01d71ec0  01d71f40
+01e71cf2   01e71cf0  01e71d12  01e71e12  01e71f42
+02171c20   02171c20  02171d10  02171e21  02171f04
+
+Reset 71d Misc to 0
+New 71d Associations
+ Before                After
+--------------------------------------------------
+01271d01   01271c30  01271d00  01271ea6  01271fb7
+01471d01   01471c10  01471d00  01471e17  01471f90
+01671d00   01671c40  01671d00  01671e00  01671f40
+01d71d00   01d71c50  01d71d00  01d71ec0  01d71f40
+01e71d12   01e71cf0  01e71d10  01e71e12  01e71f42
+02171d10   02171c20  02171d10  02171e21  02171f04
+
+Correct 71f 02 FP to 01
+New 71f Associations
+ Before                                    After
+--------------------------------------------------
+01271d01   01271c30  01271d00  01271ea6  01271fb0
+01471d01   01471c10  01471d00  01471e17  01471f90
+01671d00   01671c40  01671d00  01671e00  01671f40
+01d71d00   01d71c50  01d71d00  01d71ec0  01d71f40
+01e71d12   01e71cf0  01e71d10  01e71e12  01e71f41
+02171d10   02171c20  02171d10  02171e21  02171f00
+ 

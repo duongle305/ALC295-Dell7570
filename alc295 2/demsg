@@ -1,0 +1,8 @@
+[   22.534828] snd_hda_codec_realtek hdaudioC0D0: autoconfig for ALC3254: line_outs=1 (0x14/0x0/0x0/0x0/0x0) type:speaker
+[   22.534829] snd_hda_codec_realtek hdaudioC0D0:    speaker_outs=0 (0x0/0x0/0x0/0x0/0x0)
+[   22.534830] snd_hda_codec_realtek hdaudioC0D0:    hp_outs=1 (0x21/0x0/0x0/0x0/0x0)
+[   22.534831] snd_hda_codec_realtek hdaudioC0D0:    mono: mono_out=0x0
+[   22.534831] snd_hda_codec_realtek hdaudioC0D0:    inputs:
+[   22.534832] snd_hda_codec_realtek hdaudioC0D0:      Headset Mic=0x19
+[   22.534833] snd_hda_codec_realtek hdaudioC0D0:      Headphone Mic=0x1a
+[   22.534834] snd_hda_codec_realtek hdaudioC0D0:      Internal Mic=0x12

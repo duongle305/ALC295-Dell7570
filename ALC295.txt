@@ -1,0 +1,5 @@
+0x14    20  20 > 2                      Speaker out         
+0x21    33  33 > 3                      HP out
+0x19    25  8 > 35 > 25 | 9 > 34 > 25   Headset Mic in
+0x1a    26  8 > 35 > 26 | 9 > 34 > 26   Headphone Mic in
+0x12    18  7 > 36 > 18 | 8 > 35 > 18   Internal Mic in
